@@ -21,7 +21,7 @@
       <div class="main">
          <div class="col-md-6 col-sm-12">
             <div class="login-form">
-               <form method="post" action="Main/login_action">
+               <form method="post" action='Main/login_action'>
                <?php  echo validation_errors(); ?>
                   <div class="form-group">
                      <label>User Name</label>
